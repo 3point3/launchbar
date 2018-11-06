@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>font-awesome:fa-camera</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.3point3.LaunchBar.action.Screenshot</string>
+	<key>CFBundleName</key>
+	<string>Screenshot</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Brandon</string>
+		<key>LBEmail</key>
+		<string>bdestill@me.com</string>
+		<key>LBRequirements</key>
+		<string>Monosnap https://monosnap.com/welcome</string>
+		<key>LBResult</key>
+		<string>Screenshot file</string>
+		<key>LBSummary</key>
+		<string>Uses Monosnap to capture area. Requires Monosnap https://monosnap.com/</string>
+	</dict>
+	<key>LBRequirements</key>
+	<string>Monosnap https://monosnap.com/welcome</string>
+	<key>LBResult</key>
+	<string>Screenshot file</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBRunInBackground</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>screenshot.scpt</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
